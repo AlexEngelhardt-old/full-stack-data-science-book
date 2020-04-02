@@ -1,0 +1,235 @@
+# Introduction {-}
+
+## Why this book? {-}
+
+- https://www.kdnuggets.com/2020/01/data-scientist-archetypes.html
+    Become a generalist. Maybe keep one of the fields as a specialty
+    This sets you up to become a technical leader or data executive
+- Compare it to "Full Stack Developer"
+    - What is 'backend', what is 'frontend'?
+- Many new topics, they might seem unnecessary, additional burden that you could skip.
+    - But these are all things that take some extra time, but will pay off in the end.
+    - Examples:
+        - Use a venv
+            - Yes it's more annoying to set up in the beginning
+            - But imagine pushing your package to AWS and it fails because pandas was updated from 0.25.3 to 1.0 and up there, a data type in a deeply nested function is now float, not str.
+        - Use a dev and prod environment
+            - Yes it's more annoying to set up in the beginning
+            - But imagine doing something you *think* has no effect, and it suddenly deletes the data you are already serving to your beta customers
+        - Use tests
+            - Yes it's more annoying to set up in the beginning
+            - But imagine you want to now make your project public, but your code is now so messy that you want to clean it up and refactor, but you can't because you're scared the changes will break something
+
+
+# (PART) Data Science {-}
+
+# SQL
+
+- It's oldschool, but omnipresent. You'll encounter it often, learn the basics!
+
+# R
+
+# Python
+
+# Training Large Models on the Cloud
+
+# Data Storage
+
+- When to use SQL and when to use S3
+	 - S3 as default
+	 - SQL only when existing data is updated very often
+	 - right? Research this better :)
+
+# (PART) Software Engineering {-}
+
+- Yes it's annoying to learn in the beginning and it's more work to set up
+- But: So is building a concrete house vs. a straw hut.
+
+# Become a good Programmer
+
+- Read Clean Code and The Pragmatic Programmer
+- Read standard library code to converge to their coding style
+  - For Python: https://github.com/python/cpython/tree/3.8/Lib
+- Do code challenges to get good at algorithms and general coding
+  - start with codewars, then leetcode, hackerrank, topcoder
+  - Advent of Code as an honorable mention
+- Ask HN: What change in your programming technique has been most transformative?
+     - https://news.ycombinator.com/item?id=22129757
+	   - To learn
+	     - Static typing in Python
+	     - Continuous Delivery
+	     - Programming Paradigms: Logic, Probabilistic, Testing
+	     
+## Python
+
+- Fluent Python, Luciano Ramalho
+- Then write your scripts as a Python package
+     https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html
+     - And `pip install -e ` in Development mode. This way, the package is only a link to the source, and no reinstalling is necessary!
+
+
+## R
+
+- https://bookdown.org/csgillespie/efficientR/
+- https://adv-r.hadley.nz/  
+ 
+# Literate Programming
+
+# Reproducibility
+
+- Virtualenv / venv, requirements.txt with *fixed* version numbers.
+     - https://www.reddit.com/r/Python/comments/923d9d/solution_for_syspathappend_pep8_import_issues/
+     - Source:
+       https://realpython.com/python-virtual-environments-a-primer/
+     - Solves these problems
+       - You update package X from v1 to v2, suddenly a deprecated function you
+         used is removed, thus your code breaks.
+	 - So in this project, you need to stick with v1
+	 - But in your other project B, you depend on a new function that was
+           only added in v2
+	   - In Python, you can't specify the version of a package you want to
+             import
+       - You want to install and import your own package, but not "globally"
+     - One could argue that one does not need virtualenv for a production environment because there is no mixing on a deployed and self contained production (virtual) box. However, it will be useful for having identical environments between development and production, and virtualenv is very useful in a more dynamic development environment.
+       https://www.quora.com/What-are-the-advantages-of-using-virtualenv-when-using-Python-for-a-production-website
+
+  
+# Documentation
+
+# The Linux command line
+
+- https://letterstoanewdeveloper.com/2019/02/04/learn-the-command-line/
+- https://www.datascienceatthecommandline.com/
+
+# Your Text Editor
+
+- https://letterstoanewdeveloper.com/2018/09/21/learn-a-text-editor/
+
+# Version control
+
+- Understand the concepts, not the commands
+- This script is cool:
+    - https://bitbucket.org/BitPusher16/dotfiles/raw/49a01d929dcaebcca68bbb1859b4ac1aea93b073/refs/git/git_examples.sh
+    - https://gist.github.com/radum/fd54f20e9ee5de1b6c4d1b18c15a9a00
+
+# Object-oriented Programming
+
+# Testing
+- pytest
+
+## Integration testing
+- Smoke testing: Just see if your model API is available once it's published
+  - pytest smoketests.py (?)
+  
+## Data testing: `great_expectations`
+
+- Or your own python package data_verificator (as dv)
+     - Specify data schema to verify your recurring data set against
+     - Solves problems:
+       - Client sends you updated data set in the middle of the analysis
+	 that breaks your code
+       - Recurring data every week or so, and at some point the guys
+	 change column denominations, factor levels etc. unknowingly
+     - MyDataset_schema = {
+           'timestamp': {
+               'type': pd.Timestamp,
+	       'nullable': False,
+	       'min': '2019-01-01 00:00:00+00:00',
+	       'max': '2100-01-01 00:00:00+00:00',
+	   },
+	   'the_angle':
+               'type': float,
+	       'nullable': True
+	       'min': '0',
+	       'max': '360',
+            }
+       }
+
+
+# (PART) Deployment {-}
+
+# DevOps practices
+
+- DevOps vs. Agile: https://www.guru99.com/devops-tutorial.html#7
+
+## The Microservice Architecture
+
+- Loose coupling. See also The Unix progrmamming handbook by E.S.Raymond. Unix loves small programs that 'do one thing well' too
+
+## Deployment and Production Environments
+
+## Continuous Integration and Continuous Delivery
+
+- Case Study: The scikit-learn pipeline on Azure DevOps
+
+## Monitoring
+
+# Docker
+
+# APIs
+
+- As soon as somebody else uses your code, you've deliberately or not created an API. (Source:  
+  https://de.pycon.org/program/pyconde-qxb8dr-break-your-api-gently-or-not-at-all-tim-hoffmann/)
+- Deploy and consume a model via an API
+	 - https://github.com/timoklimmer/run-r-on-amls/blob/master/create-webservice.ipynb trains and RData's the model
+	 - https://github.com/timoklimmer/run-r-on-amls/blob/master/consume-webservice.ipynb consumes it via JSON in-/output
+- Timo: "Or you can use Swagger"
+
+# Pipeline Orchestration with Airflow
+
+# (PART) Visualization {-}
+
+# Dash
+
+- Use dash, it's good (enough) for prototyping and showing to the stakeholders
+
+# (PART) Soft Skills {-}
+
+# Learning Hard Things
+
+## Deep Work
+
+  - It's often a complex system
+  - Keep at it, the stubborn will win, not the smart or fast guys
+  - If it seems too complex from a birds eye view, put on scheuklappen
+	and learn one single thing, then another, then one more.
+    - *Everyone else* did exactly that. No one was born knowing e.g. git.
+
+## Making Mistakes
+
+  - Example: The git workflow seems complex at the beginning
+  - If you learn and use best practices right away, you'll know them,
+	  but you won't love them
+  - You'll only start noticing its value after you screw up a few times
+  - So screw up a lot! Preferably in your private side projects, not at
+	  work.
+  - Lessons you have *learnt* instead of *read* will stick better, you'll
+    intuitively understand *why* some additional effort is necessary and
+    actually a good thing because it will ultimately pay off (as needing less
+    time)
+
+## Stay up to date
+
+- https://letterstoanewdeveloper.com
+- KDNuggets
+- towardsdatascience
+- etc.
+
+# Communication
+
+- Know who to talk to
+- Know what to build
+- How to communicate results
+- Ich hab dazu mal gelesen: The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully, by Gerald M. Weinberg, aber nur 2/5 Sterne gegeben :)
+    - Oder: https://www.goodreads.com/book/show/1044831.Are_Your_Lights_On_
+    - (Problem solving in general. Auch das Buch von George (?) Polya) (maybe "Problem Solving" can become its own chapter)
+
+# Requirements Engineering
+
+- e.g. When they want a Deep Learning monster, but a linear regression will do
+- As simple as possible, as complex as necessary
+
+# Project Management
+
+- Incremental value delivery, close communication with Product Owner
+- Pivot when a projects goes crazy
