@@ -1,0 +1,7 @@
+# Business skills
+
+- ask the business questions
+- be able to compute the ROI $ impact
+- generate your own (new) business questions based on existing data you get supplied
+- develop an entrepreneurial attitude: find problems, and develop solutions
+- define a business success metric (independent of the model performance): e.g. the %customers who bought somethign (conversion rate), or the sum total in sales$

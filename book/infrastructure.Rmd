@@ -1,0 +1,21 @@
+# Infrastructure
+
+- Start with building the right infrastructure, on-premise or cloud
+- This is one of the greater challenges. If you're working on a greenfield project, to build the pipeline to get to the point where you can actually start doing DS
+- Big challenges:
+  - 80%: Get the data ready to do DS on it
+    - won't change soon: Data is messy and different data sets don't align
+    - But companies are pushing towards better **data governance**
+  - Tool selection
+  - Best practices: What are other companies in this industry doing?
+  
+## Cloud Services
+
+- AWS, Azure, GCP
+- Good way to train large models
+- cloud makes many things easier, but new problems arise, e.g. data leaks (horror stories of accidentally public S3 containers)
+- Nice way to get familiar with the concepts: I like doing a certificate as a clearly defined goal line to get familiar with what's possible
+
+## Pipelines, APIs and Software Engineering
+
+- At this stage, you'll also need skills that are valuable in the DevOps part (productionizing your model)

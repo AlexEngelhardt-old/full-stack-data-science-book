@@ -1,0 +1,27 @@
+# Data Management
+
+## Data Collection
+
+### Web Scraping
+
+## Tidy data
+
+- Hadley's paper
+
+## Data storage
+
+- When to use SQL and when to use S3
+	 - S3 as default
+	 - SQL only when existing data is updated very often
+	 - right? Research this better :)
+
+## Security and Access Control
+
+
+## ETL Pipelines
+
+## Databases
+
+### SQL
+
+### NoSQL

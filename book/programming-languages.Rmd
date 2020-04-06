@@ -1,0 +1,13 @@
+# Programming Languages
+
+## Python
+
+- When you can use it, use Python: It's the *swiss army knife*.
+  - *"Python is the second best language for almost anything"*
+  - /* Focus the book on Python then */
+
+## SQL
+
+- It's oldschool, but omnipresent. You'll encounter it often, learn the basics!
+
+## R

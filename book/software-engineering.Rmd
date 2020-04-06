@@ -1,0 +1,103 @@
+# Software Engineering
+
+- Become a good programmer!
+- Read Clean Code and The Pragmatic Programmer
+- Read standard library code to converge to their coding style
+  - For Python: https://github.com/python/cpython/tree/3.8/Lib
+- Do code challenges to get good at algorithms and general coding
+  - start with codewars, then leetcode, hackerrank, topcoder
+  - Advent of Code as an honorable mention
+- Ask HN: What change in your programming technique has been most transformative?
+     - https://news.ycombinator.com/item?id=22129757
+	   - To learn
+	     - Static typing in Python
+	     - Continuous Delivery
+	     - Programming Paradigms: Logic, Probabilistic, Testing
+	     
+- Python
+  - Fluent Python, Luciano Ramalho
+  - Then write your scripts as a Python package
+     https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html
+     - And `pip install -e ` in Development mode. This way, the package is only a link to the source, and no reinstalling is necessary!
+- R
+  - https://bookdown.org/csgillespie/efficientR/
+  - https://adv-r.hadley.nz/  
+ 
+## Tools
+
+### The Linux command line
+
+- https://letterstoanewdeveloper.com/2019/02/04/learn-the-command-line/
+- https://www.datascienceatthecommandline.com/
+
+### Your Text Editor
+
+- https://letterstoanewdeveloper.com/2018/09/21/learn-a-text-editor/
+
+### Version control
+
+- Understand the concepts, not the commands
+- This script is cool:
+    - https://bitbucket.org/BitPusher16/dotfiles/raw/49a01d929dcaebcca68bbb1859b4ac1aea93b073/refs/git/git_examples.sh
+    - https://gist.github.com/radum/fd54f20e9ee5de1b6c4d1b18c15a9a00
+- Also know of: Data Version control
+
+## Programming Concepts
+
+- Yes it's annoying to learn in the beginning and it's more work to set up
+- But: So is building a concrete house vs. a straw hut.
+
+### Documentation
+ 
+### Literate Programming
+
+### Reproducibility
+
+- Virtualenv / venv, requirements.txt with *fixed* version numbers.
+     - https://www.reddit.com/r/Python/comments/923d9d/solution_for_syspathappend_pep8_import_issues/
+     - Source:
+       https://realpython.com/python-virtual-environments-a-primer/
+     - Solves these problems
+       - You update package X from v1 to v2, suddenly a deprecated function you
+         used is removed, thus your code breaks.
+	 - So in this project, you need to stick with v1
+	 - But in your other project B, you depend on a new function that was
+           only added in v2
+	   - In Python, you can't specify the version of a package you want to
+             import
+       - You want to install and import your own package, but not "globally"
+     - One could argue that one does not need virtualenv for a production environment because there is no mixing on a deployed and self contained production (virtual) box. However, it will be useful for having identical environments between development and production, and virtualenv is very useful in a more dynamic development environment.
+       https://www.quora.com/What-are-the-advantages-of-using-virtualenv-when-using-Python-for-a-production-website
+
+### Object-oriented Programming
+
+### Testing
+- pytest
+
+#### Integration testing
+- Smoke testing: Just see if your model API is available once it's published
+  - pytest smoketests.py (?)
+  
+#### Data testing: `great_expectations`
+
+- Or your own python package data_verificator (as dv)
+     - Specify data schema to verify your recurring data set against
+     - Solves problems:
+       - Client sends you updated data set in the middle of the analysis
+	 that breaks your code
+       - Recurring data every week or so, and at some point the guys
+	 change column denominations, factor levels etc. unknowingly
+     - MyDataset_schema = {
+           'timestamp': {
+               'type': pd.Timestamp,
+	       'nullable': False,
+	       'min': '2019-01-01 00:00:00+00:00',
+	       'max': '2100-01-01 00:00:00+00:00',
+	   },
+	   'the_angle':
+               'type': float,
+	       'nullable': True
+	       'min': '0',
+	       'max': '360',
+            }
+       }

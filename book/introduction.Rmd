@@ -1,0 +1,104 @@
+# Introduction {-}
+
+## What is Full Stack Data Science? {-}
+
+- The CRISP-DM process model defines the full stack very well
+- CRISP-DM (cross industry standard for data mining)
+  - workflow for solving DS problems
+  - it makes sure you don't miss a step or make common errors
+  1. business understanding
+     - define biz q and what success looks like
+  2. data understanding
+     - can you answer the question with the data? 
+     - if not, reframe question or augment data
+  3. data preparation
+     - EDA, visualization
+     - data cleaning
+  4. modeling
+     - feature engineering
+     - refine model
+     - you might go back step(s) at any time
+  5. evaluation
+     - examine performance on new data
+     - benchmark model
+     - A/B test
+     - verify model is correct
+  6. deployment
+
+
+- **Full-Stack**
+  - Not only: iterating on a model
+  - Build out an entire **DS product**:
+    - Start with a data flow
+    - Transform data into some environment
+    - output model
+    - display model
+- aka "End-to-end DS"
+  - essentially, be able to build a full data product
+  - "proficient across the entire value chain of data"
+
+
+- obvious due to time constraints: in a specific field, you won't be as good as a specialist
+- Also, depending on your level of experience, you may have just a basic awareness of e.g. the business side or the work on the DevOps side (putting your model into production) - in that case your organization still benefits from your skills because you know how to design your product so that the devops team has the least amount of trouble with it. Or you could become an expert in multiple fields and then might become the person fully responsible for that part in your organization, as well.
+
+- Compare it to "Full Stack Developer"
+    - What is 'backend', what is 'frontend'?
+- Many new topics, they might seem unnecessary, additional burden that you could skip.
+    - But these are all things that take some extra time, but will pay off in the end.
+    - Examples:
+        - Use a venv
+            - Yes it's more annoying to set up in the beginning
+            - But imagine pushing your package to AWS and it fails because pandas was updated from 0.25.3 to 1.0 and up there, a data type in a deeply nested function is now float, not str.
+        - Use a dev and prod environment
+            - Yes it's more annoying to set up in the beginning
+            - But imagine doing something you *think* has no effect, and it suddenly deletes the data you are already serving to your beta customers
+        - Use tests
+            - Yes it's more annoying to set up in the beginning
+            - But imagine you want to now make your project public, but your code is now so messy that you want to clean it up and refactor, but you can't because you're scared the changes will break something
+
+## Why do we need Full Stack Data Scientists? {-}
+
+https://hbr.org/2019/03/why-data-science-teams-need-generalists-not-specialists
+
+## Who is this book for? {-}
+
+- Anyone who wants to become a **generalist**. 
+    - Often, it's a consultant that needs to adapt to different environments (companies) often
+        - Your job often is to build a full data product
+        - The tools you'll use in one particular organization is heavily dependent on the skills and tools available in that organization (to make the hand-over as easy as possible)
+        - But there's a need for deep specialists too, of course. It's best to work in complementing teams, with one expert each in statistics, engineering, business, etc.
+
+    - But also the solo startup founder needs the full set of skills^[https://www.datasciencecentral.com/profiles/blogs/full-stack-data-scientist-the-elusive-unicorn-and-data-hacker]
+    - Or the only DS in a small company that has no other choice but to do everything
+    - Or the guy who wants to become a technical leader or data executive
+
+
+- The beginner can start out by getting an overview about everything this Branche comprises, and then afterwards choose a field to specialize in
+- Or you're already an expert in one field and want to get an understanding of how it fits into the big picture
+- Maybe keep one of the fields as a specialty
+  
+- The field will be evolving quickly for the foreseeable future. It's good to have at least basic knowledge of many methods. If you don't know about screwdrivers, you'll use a hammer to drive in a screw.
+- Data Scientists need more software development skills, esp. as more stuff goes
+  into the cloud, we need to know how to work in there
+
+## Goal of this book {-}
+
+- It will explain why you need a specific technology, and will show you some examples of using it, but it will not make you an expert in each technology (space reasons)
+- At the end, you should have a birds-eye view of the broad picture of building a data product, and can create a small one yourself
+
+- In the spirit of generalism, it will touch on many subjects and give you a broad overview of what is important and what consistutes the topics a FSDS should be familiar with
+- It's up to you to pick subjects to intensify and specialize in
+- Of course you're also free to ignore certain subjects
+
+
+- Since much has been written about the DS part already, this book will focus on "everything else", especially the DevOps part 
+
+- full mastery of the full stack takes years. Don't expect to be an expert after working through this book. But you will have an overview of what's important and where to continue your individual learning journey
+
+- Future belongs to the flexible people, who can write+read good code in a
+  variety of languages, and can teach themselves as the environment shifts
+
+
+## How this book is organized {-}
+
+- Part and chapter hierarchy

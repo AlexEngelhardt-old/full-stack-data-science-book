@@ -1,0 +1,5 @@
+# Project Management
+
+- know how to move fast, lean+agile, build MVP, get feedback and iterate
+- Incremental value delivery, close communication with Product Owner
+- know to Pivot when a projects goes crazy

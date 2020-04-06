@@ -1,0 +1,18 @@
+# Deployment
+
+## Containers with Docker
+
+  - https://medium.com/applied-data-science/the-full-stack-data-scientist-part-2-a-practical-introduction-to-docker-1ea932c89b57
+
+## APIs
+
+- As soon as somebody else uses your code, you've deliberately or not created an API. (Source:  
+  https://de.pycon.org/program/pyconde-qxb8dr-break-your-api-gently-or-not-at-all-tim-hoffmann/)
+- Deploy and consume a model via an API
+	 - https://github.com/timoklimmer/run-r-on-amls/blob/master/create-webservice.ipynb trains and RData's the model
+	 - https://github.com/timoklimmer/run-r-on-amls/blob/master/consume-webservice.ipynb consumes it via JSON in-/output
+- Timo: "Or you can use Swagger"
+
+  - https://medium.com/applied-data-science/the-full-stack-data-scientist-part-1-productionise-your-models-with-django-apis-7799b893ce7c
+
+## Pipeline Orchestration with Airflow

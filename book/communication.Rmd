@@ -1,0 +1,42 @@
+# Communication
+
+## Speaking
+
+- Know who to talk to
+- How to communicate results
+- Ich hab dazu mal gelesen: The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully, by Gerald M. Weinberg, aber nur 2/5 Sterne gegeben :)
+    - Oder: https://www.goodreads.com/book/show/1044831.Are_Your_Lights_On_
+    - (Problem solving in general. Auch das Buch von George (?) Polya) (maybe "Problem Solving" can become its own chapter)
+- **Communication** depends on recipient: empathize
+  - Talking to DSs, talk about your model and its parameters
+  - Talking to executives, focus on their interests: business outcome, financial
+    impact, what kind of actions you recommend.
+  - Speak in a language they understand (multilingual :) )
+
+## Writing
+
+- writing project proposals
+- documentation
+
+## Requirements engineering
+
+- Know what to build
+- clearly define the goal (a business sucess metric
+- e.g. When they want a Deep Learning monster, but a linear regression will do
+- As simple as possible, as complex as necessary)
+
+## Results
+
+- We like to focus on tinkering with the model
+- But keep your sight on the business goal. Get to the point where you can demonstrate that your hypothesis / call-to-action can result in an actual change in the business
+
+## Hand-over
+
+- Ideally, as a consultant, stay on for a month after deployment to monitor
+  it. But! Make it easy to change, so the client can afterwards:
+  - Maintain/adapt the model
+  - Watching for **model drift**
+- That's why you need an initial few days to watch the team, what tools they
+  use, what tech they're familiar with, so you can pass it back to them
+  afterwards.
+- Document it well!

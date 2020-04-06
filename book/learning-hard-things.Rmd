@@ -1,0 +1,68 @@
+# Learning Hard Things
+
+- Become a self-learner / autodidact
+
+## Problem Solving
+
+- You'll be an all-rounder
+- You'll encounter many many diverse problems. Expect to deal with much of that
+- Polya's book "How to solve it"
+
+## Singletask
+
+- Learn **one** thing (language) very well. Learn the internals of the
+  language. A generalist recognizes patterns and can generalize/extrapolate, and
+  e.g. quickly understand how objects work in R if he knows how objects work in
+  Python.
+  - Try building a product end-to-end:
+    https://twitter.com/vboykis/status/981536248312496128
+	- She built a bot that scrapes art, stores in AWS, and a AWS Lambda that
+      tweets art
+
+## Deep Work
+
+  - It's often a complex system
+  - Keep at it, the stubborn will win, not the smart or fast guys
+  - If it seems too complex from a birds eye view, put on scheuklappen
+	and learn one single thing, then another, then one more.
+    - *Everyone else* did exactly that. No one was born knowing e.g. git.
+
+## Making Mistakes
+
+  - Example: The git workflow seems complex at the beginning
+  - If you learn and use best practices right away, you'll know them,
+	  but you won't love them
+  - You'll only start noticing its value after you screw up a few times
+  - So screw up a lot! Preferably in your private side projects, not at
+	  work.
+  - Lessons you have *learnt* instead of *read* will stick better, you'll
+    intuitively understand *why* some additional effort is necessary and
+    actually a good thing because it will ultimately pay off (as needing less
+    time)
+
+## Stay up to date
+
+### Blogs
+
+- TODO see feedly
+- https://letterstoanewdeveloper.com
+
+### Collections
+
+- KDNuggets
+- towardsdatascience
+
+### Podcasts
+
+- DataFramed
+
+## Continuous Learning
+
+- Visit Meetup groups to exchange
+- Join kaggle competitions
+- Get a mentor
+- Create a Mastermind group
+- Always have a pet project
+- TODO distill stuff from Newport course here
+  - Always have a practice project
+

@@ -1,32 +1,46 @@
 # Decisions
 
-- [ ] Focus on Python? Or do both? Will be hard for presenting software (e.g. must write about Shiny and Dash)
+- [X] Focus on Python? Or do both? Will be hard for presenting software (e.g. must write about Shiny and Dash)
 
-# Sources
+# Sources to still distill
 
+- https://www.reddit.com/r/datascience/comments/fvgx3n/what_hiring_managers_are_really_looking_for/
+- https://blog.dominodatalab.com/become-full-stack-data-science-company/
+- https://thefullstackdatascientist.com/blog/what-is-a-full-stack-data-scientist/
+- https://github.com/amitkaps/full-stack-data-science
 - Read https://letterstoanewdeveloper.com titles for topic ideas
-- https://www.datacamp.com/community/podcast/full-stack-data-science
 - https://vsupalov.com/deployment/
   - This guy is also awesome for Django deployment
 - List of "ML into production": https://www.reddit.com/r/datascience/comments/eufeqm/how_to_learn_data_science_best_practices_if_youre/
 - https://vimeo.com/275834171 von https://www.m3-konferenz.de/rueckschau.php
 - David Kriesel: Bahnmining: "Wie man Datenprojekte angeht": https://youtu.be/0rb9CfOvojk?t=1265
 - Martin Zinkevich: https://developers.google.com/machine-learning/guides/rules-of-ml
-- Self-Published Book – “Data Science in Production” https://news.ycombinator.com/item?id=21955527
-  - https://leanpub.com/ProductionDataScience
-  - https://towardsdatascience.com/data-science-in-production-13764b11d68e
+- https://towardsdatascience.com/deploy-monitor-and-scale-machine-learning-models-on-aws-408dfd397422
 - http://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf
 - Google "DataOps"
 - https://stackoverflow.blog/2019/09/05/they-didnt-teach-us-this-a-crash-course-for-your-first-job-in-software/
-- https://github.com/amitkaps/full-stack-data-science
-- https://www.forbes.com/sites/cognitiveworld/2019/09/11/the-full-stack-data-scientist-myth-unicorn-or-new-normal/#56f016682c60
-- https://thefullstackdatascientist.com/blog/what-is-a-full-stack-data-scientist/
 - Include a big chapter on Deep Work. http://calnewport.com/blog/2018/11/07/on-physician-burnout-and-the-plight-of-the-modern-knowledge-worker/
 - https://sifted.eu/articles/machine-learning-full-stack/
 - One guy's company and their production setup
   - https://news.ycombinator.com/item?id=20985875
 - Kubernetes Workshop: https://github.com/eon01/kubernetes-workshop
 
+## Talks
+
+- https://www.youtube.com/watch?v=ErrHRMiNNXE
+- https://www.youtube.com/watch?v=huqpXMNFD54
+- https://www.youtube.com/watch?v=LLvvNNWp3D0
+- https://www.youtube.com/watch?v=kwh5yuuI8Mg
+- https://www.youtube.com/watch?v=-GVA65xGPYY
+- https://www.youtube.com/watch?v=iT3l8HfcGLE&list=PLtRYQXROMrfQpO4jWwUye5tzk07IqLv5x
+
+## Books
+
+- Self-Published Book – “Data Science in Production” https://news.ycombinator.com/item?id=21955527
+  - https://leanpub.com/ProductionDataScience
+  - https://towardsdatascience.com/data-science-in-production-13764b11d68e
+- Agile Data Science 2.0
+  - https://www.amazon.com/_/dp/1491960116
 
 # Expert Interviews
 

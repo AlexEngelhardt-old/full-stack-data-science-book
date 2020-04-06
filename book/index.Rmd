@@ -16,3 +16,6 @@ description: "This is a book about the mythical Full Stack Data Scientist, and t
 # setup code goes here
 ```
 
+# Preface {-}
+
+Hello!

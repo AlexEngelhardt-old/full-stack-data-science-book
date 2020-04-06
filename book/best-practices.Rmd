@@ -1,0 +1,7 @@
+# Best Practices
+
+- There is no solidified best practices yet (like it is in frontend SW eng)
+- re-read (and include a chapter on) **The elements of data analytic style**
+- Facebook and Google released guides on ML (Google's is particularly good)
+- Ethics
+  - e.g. Data Leaks. Secure your data! Don't collect what you don't need!

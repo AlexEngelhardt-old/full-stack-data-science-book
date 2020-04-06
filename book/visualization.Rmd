@@ -1,0 +1,6 @@
+# Visualization
+
+- To present graphics and results to stakeholders
+- You should be able to make a (very simple) web app with a dashboard
+- Use dash, it's good (enough) for prototyping and showing to the stakeholders
+  - or Shiny if you work with R

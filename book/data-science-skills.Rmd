@@ -1,0 +1,33 @@
+# Data Science Skills
+
+- You can't become an expert in all of these, but you need to at least know these topics exist, so you can select the right method for a specific problem
+- Regarding models, always start simple. Occam's Razor.
+
+## Operations Research
+
+- Convex optimization and the likes
+
+## Classical Statistics
+
+## Machine Learning
+
+### Supervised Learning
+
+### Unsupervised Learning
+
+## Graphs
+
+## Unstructured Data
+
+- Often: Deep Learning
+
+### Natural Language Processing
+
+### Image Analysis
+
+## Interpretable Machine Learning / Explainable AI
+
+- As a consultant, you hand over stuff a lot.
+  - Prefer simpler models that are easily explainable and interpretable
+- Ethical reasons (e.g. Gender Bias)
+- Legal reasons (GDPR e.g.)

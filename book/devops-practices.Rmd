@@ -1,0 +1,21 @@
+# DevOps Best Practices
+
+- DevOps vs. Agile: https://www.guru99.com/devops-tutorial.html#7
+
+## The Microservice Architecture
+
+- Loose coupling. See also The Unix progrmamming handbook by E.S.Raymond. Unix loves small programs that 'do one thing well' too
+
+## Automation
+
+- for re-training, deployment (CI/CD) etc.
+- Pipelines with Airflow
+
+## Development and Production Environments
+
+## Continuous Integration and Continuous Delivery
+
+- Case Study: The scikit-learn pipeline on Azure DevOps
+- Also, for the DS: continuous, automatic re-training
+
+## Monitoring

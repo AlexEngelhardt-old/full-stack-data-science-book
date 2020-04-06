@@ -3,3 +3,31 @@ language:
   ui:
     chapter_name: "Lesson "  # Calling them "Lesson" instead of "Chapter" facilitates later transformation into a course
 delete_merged_file: true
+
+rmd_files:
+ [
+   "index.Rmd",
+
+   "introduction.Rmd",
+
+   "SoftSkills.Rmd",  # Part
+   "business-skills.Rmd",
+   "communication.Rmd",
+   "project-management.Rmd",
+   "learning-hard-things.Rmd",
+
+   "DataEngineering.Rmd",  # Part
+   "infrastructure.Rmd",
+   "data-management.Rmd",
+
+   "DataScience.Rmd",  # Part
+   "programming-languages.Rmd",
+   "data-science-skills.Rmd",
+   "best-practices.Rmd",
+   "visualization.Rmd",
+
+   "DevOps.Rmd",  # Part
+   "software-engineering.Rmd",
+   "devops-practices.Rmd",
+   "deployment.Rmd",
+  ]
