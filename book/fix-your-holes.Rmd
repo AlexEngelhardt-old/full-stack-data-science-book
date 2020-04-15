@@ -1,0 +1,34 @@
+# Resources to fix your holes
+
+- To be a generalist: Fix your holes, don't polish your medals
+- For the various skill sets that are important, find the one where improvement would be the most important, then use the resources here to build your skills.
+
+## Theory of Computer Science
+
+- [Computer Science Distilled](https://www.amazon.com/Computer-Science-Distilled-Computational-Problems/dp/0997316020)
+
+## Practical Mastery of your Computer
+
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) is a video course on TODO
+
+## Software Engineering
+
+- e.g. Design patterns, complexity, documenting, etc.
+
+## Optimization
+
+
+
+## Classical Statistics
+
+- maybe: https://www.jmp.com/en_us/online-statistics-course/course-outline.html#e89232f2-450b-4667-941d-e3e4c9b25b81
+
+## Machine Learning theory
+
+- e.g. which performance measures exist, which to use when
+- Andrew Ng's Machine Learning MOOC
+
+## Practical Data Science
+
+- how to properly evaluate a model
+  - e.g. how to CV when you have spatial or temporal data

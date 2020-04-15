@@ -1,12 +1,27 @@
 # Data Management
 
-## Data Collection
+## Data Acquisition
+
+- https://ofdollarsanddata.com/one-big-thing/
+  - Sometimes it helps to have lots of variables/measures, but sometimes you only need to know one big thing.
+  
+### Collecting your own data
+
+- Sampling design
+- How much data to collect?
+- What features to collect?
 
 ### Web Scraping
 
-## Tidy data
+## Data cleaning
+
+### Tidy data
 
 - Hadley's paper
+- Janek: There's an Amazon paper on "Data Readiness": when is it *tidy* data?
+  - https://www.aws.training/Details/eLearning?id=34084
+
+### EDA and data validation
 
 ## Data storage
 
@@ -23,5 +38,7 @@
 ## Databases
 
 ### SQL
+
+For some reason, this is a huge hole. 90% of DS is data cleaning and manipulation. Don't just know the syntax; know how to manipulate raw product tables to get the data you want, and be able to defend your pulls to business line owners and stakeholders when they ask why you're showing them what you're showing them.
 
 ### NoSQL

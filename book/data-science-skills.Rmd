@@ -1,13 +1,35 @@
 # Data Science Skills
 
+- TODO google for attempts on a "Data Science ontology", "ML taxonomy" etc.
+  - These should span the majority of this field
+
+
+- Since I'm assuming "core" data science skills already, I'll just briefly touch on all of these subjects. This will be a short chapter.
 - You can't become an expert in all of these, but you need to at least know these topics exist, so you can select the right method for a specific problem
 - Regarding models, always start simple. Occam's Razor.
+- The Data Science Venn Diagramm
+  - https://thefullstackdatascientist.com/blog/what-is-data-science/
 
-## Operations Research
+## Optimization
+
+https://en.wikipedia.org/wiki/Mathematical_optimization
 
 - Convex optimization and the likes
+- Derivative-free optimization
+- linear
+- quadratic
+- multi-objective
+
+- Also: close the gaps, make the connections: Know that 
+  - a GLM is just a 2nd-order optimization
+  - Fisher scoring is just inversed Newton Raphson
 
 ## Classical Statistics
+
+- know about GLMs, e.g. poisson models for number of sales items (based on item price) forecasting
+- Be able to spot methodological errors ("how to lie with statistics")
+
+## Probabilistic programming
 
 ## Machine Learning
 
@@ -24,6 +46,11 @@
 ### Natural Language Processing
 
 ### Image Analysis
+
+## Reinforcement Learning
+
+- put in or don't?
+- goal, when to use, basic methods
 
 ## Interpretable Machine Learning / Explainable AI
 

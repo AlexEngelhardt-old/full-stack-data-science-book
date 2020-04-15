@@ -19,3 +19,9 @@
 ## Pipelines, APIs and Software Engineering
 
 - At this stage, you'll also need skills that are valuable in the DevOps part (productionizing your model)
+
+## Scalability
+
+- Ideally, have a dynamically scalable system
+- Case study: During the Corona crisis, everyone suddenly played poker home games online, and a certain home game poker app crashed under the unexpectedly heavy traffic
+- Amazon ECR (or was it ECS?) automatically scales Docker containers and is a good solution for this problem.

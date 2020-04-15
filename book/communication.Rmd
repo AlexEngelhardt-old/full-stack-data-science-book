@@ -1,5 +1,9 @@
 # Communication
 
+The soft skills aren’t taught in school and are VERY important - and the hardest to find!
+
+https://letterstoanewdeveloper.com/2020/01/27/software-is-about-people-not-code/
+
 ## Speaking
 
 - Know who to talk to
@@ -11,32 +15,55 @@
   - Talking to DSs, talk about your model and its parameters
   - Talking to executives, focus on their interests: business outcome, financial
     impact, what kind of actions you recommend.
+      - Non technical stakeholder communication skills: This includes presentations, building rapport and relationships, managing up, managing different attitudes, understanding perspectives, understanding how to ask questions and listen between the lines, building strong daily partnerships
+      - https://letterstoanewdeveloper.com/2019/06/10/learn-to-explain-concepts-to-non-technical-users/
   - Speak in a language they understand (multilingual :) )
+    - https://letterstoanewdeveloper.com/2020/02/03/develop-empathy/
+- If you're really bad at speaking (like I was), I can recommend Toastmasters
+  - Especially table topics help for small talk
+
+## Managing Up
+
+- https://letterstoanewdeveloper.com/2019/02/08/patterns-for-managing-up/
+- https://letterstoanewdeveloper.com/2020/03/16/how-to-manage-one-to-ones/
 
 ## Writing
 
+- https://letterstoanewdeveloper.com/2019/06/07/writing-is-an-undervalued-engineering-skill/
 - writing project proposals
 - documentation
+- Write good e-mails
+  - https://letterstoanewdeveloper.com/2019/08/16/tips-for-using-email-well/
+- Start a blog to get better at this
+  - https://letterstoanewdeveloper.com/2019/09/20/benefits-of-blogging/
+    - and the things linked there
+  - https://letterstoanewdeveloper.com/2019/10/14/how-to-start-blogging/
 
-## Requirements engineering
+## Business Understanding / Requirements Engineering
+
+- Big thing: Mapping the domain experts' description of their problem to a ML problem description that you can solve
+- The *one metric rule*: Define one metric to optimize and guide decisions.
+
+----
+
+https://letterstoanewdeveloper.com/2019/12/05/talk-first-code-later/
+
+Honestly, analysts and data scientists don't get to do the cool stuff all the time. There is a lot of boring stuff that is easy to do, technically. I built a dashboard the other day that took me maybe 4-6 hours from start (coding) to finish, and people falling over themselves in excitement. It wasn't fancy, but it made it VERY easy for them to get what they needed, quickly.
 
 - Know what to build
-- clearly define the goal (a business sucess metric
+- clearly define the goal (a business sucess metric)
 - e.g. When they want a Deep Learning monster, but a linear regression will do
 - As simple as possible, as complex as necessary)
+
+----
+
+- How you will (or are able to) later deploy the model will already influence what you can and can't do in the modeling phase.
+- The worst thing is if you spend 6 months to build a model the DevOps team then can't deploy.
+- So use the business understanding phase, not only to define the objectives, but equally important: to **define the constraints** under which you'll have to work.
+- Many projects die because the result can't be deployed. The worst thing is that this often only is realized at the very end, after much time was wasted.
 
 ## Results
 
 - We like to focus on tinkering with the model
 - But keep your sight on the business goal. Get to the point where you can demonstrate that your hypothesis / call-to-action can result in an actual change in the business
 
-## Hand-over
-
-- Ideally, as a consultant, stay on for a month after deployment to monitor
-  it. But! Make it easy to change, so the client can afterwards:
-  - Maintain/adapt the model
-  - Watching for **model drift**
-- That's why you need an initial few days to watch the team, what tools they
-  use, what tech they're familiar with, so you can pass it back to them
-  afterwards.
-- Document it well!

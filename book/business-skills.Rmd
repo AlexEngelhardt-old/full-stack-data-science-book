@@ -1,5 +1,8 @@
 # Business skills
 
+- https://letterstoanewdeveloper.com/2018/10/12/understand-the-business/
+- https://letterstoanewdeveloper.com/2018/10/01/businesses-will-spend-money-to-make-money/
+- https://letterstoanewdeveloper.com/2019/02/15/outcomes-over-output/
 - ask the business questions
 - be able to compute the ROI $ impact
 - generate your own (new) business questions based on existing data you get supplied

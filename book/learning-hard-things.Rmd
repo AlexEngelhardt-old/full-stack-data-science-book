@@ -4,12 +4,16 @@
 
 ## Problem Solving
 
+- https://letterstoanewdeveloper.com/2019/05/10/be-a-great-developer-today/
+- https://letterstoanewdeveloper.com/2018/10/22/know-when-to-not-throw-in-the-towel/
 - You'll be an all-rounder
 - You'll encounter many many diverse problems. Expect to deal with much of that
 - Polya's book "How to solve it"
+- Grit and attitude: AKA the ability to wrangle through messy problem, messy data, and with messy relationships and politics. Know how to get through the mess, how to self problem solve, and when to call in favors. Also, have a willingness to do grunt work, like write SQL, or figure out what the product data is, how it is produced, and wtf the engineers were thinking when they structured the product in that way.
 
 ## Singletask
 
+- https://letterstoanewdeveloper.com/2020/01/23/things-good-engineers-do/
 - Learn **one** thing (language) very well. Learn the internals of the
   language. A generalist recognizes patterns and can generalize/extrapolate, and
   e.g. quickly understand how objects work in R if he knows how objects work in
@@ -21,6 +25,7 @@
 
 ## Deep Work
 
+  - https://letterstoanewdeveloper.com/2019/12/19/cultivate-the-skill-of-undivided-attention-or-deep-work/
   - It's often a complex system
   - Keep at it, the stubborn will win, not the smart or fast guys
   - If it seems too complex from a birds eye view, put on scheuklappen
@@ -29,6 +34,11 @@
 
 ## Making Mistakes
 
+  - https://letterstoanewdeveloper.com/2019/11/07/dont-be-afraid-to-fail/
+  - https://letterstoanewdeveloper.com/2019/05/31/mistakes-are-forgiven-hiding-them-is-not/
+  - https://letterstoanewdeveloper.com/2018/11/26/making-mistakes-is-ok/
+  - https://letterstoanewdeveloper.com/2018/12/31/get-used-to-failure/
+  - https://letterstoanewdeveloper.com/2019/01/04/reflect-on-your-mistakes/
   - Example: The git workflow seems complex at the beginning
   - If you learn and use best practices right away, you'll know them,
 	  but you won't love them
@@ -54,15 +64,34 @@
 
 ### Podcasts
 
+- https://letterstoanewdeveloper.com/2019/12/02/listen-to-podcasts/
 - DataFramed
 
 ## Continuous Learning
 
-- Visit Meetup groups to exchange
+- https://letterstoanewdeveloper.com/2020/03/09/never-stop-learning/
 - Join kaggle competitions
 - Get a mentor
-- Create a Mastermind group
 - Always have a pet project
+  - https://letterstoanewdeveloper.com/2019/08/02/personal-projects-make-you-a-better-developer/
 - TODO distill stuff from Newport course here
   - Always have a practice project
+- Create a Mastermind group
 
+### Get involved in the community
+
+- Surround yourself with people who are smarter than you
+- https://letterstoanewdeveloper.com/2019/06/24/avoid-working-alone/
+- https://letterstoanewdeveloper.com/2019/04/19/avoid-being-an-expert-beginner/
+  - This post hits home. This is a dangerous pinnacle
+  - And to solve this, get involved with the community
+- Online groups
+  - https://letterstoanewdeveloper.com/2019/02/11/join-an-online-tech-community/
+- Offline groups
+  - https://letterstoanewdeveloper.com/2018/10/24/join-a-meetup/
+  - https://letterstoanewdeveloper.com/2019/03/08/avoid-the-impossible-goal-of-being-a-know-it-all/
+- Go to conferences
+  - Submit talks! Just do it!
+  - https://letterstoanewdeveloper.com/2019/09/30/speaking-isnt-as-scary-as-you-think-eventually/
+  - https://letterstoanewdeveloper.com/2020/03/05/confessions-of-a-conference-speaker/
+- Submit code to FOSS projects

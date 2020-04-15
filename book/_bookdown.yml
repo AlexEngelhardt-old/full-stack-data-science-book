@@ -30,4 +30,7 @@ rmd_files:
    "software-engineering.Rmd",
    "devops-practices.Rmd",
    "deployment.Rmd",
+
+   "Appendix.Rmd",
+   "fix-your-holes.Rmd",
   ]

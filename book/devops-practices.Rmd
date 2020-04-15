@@ -10,6 +10,8 @@
 
 - for re-training, deployment (CI/CD) etc.
 - Pipelines with Airflow
+- https://letterstoanewdeveloper.com/2018/12/17/be-a-just-in-time-learner-part-i/
+  - https://letterstoanewdeveloper.com/2018/12/24/be-a-just-in-time-learner-part-ii/
 
 ## Development and Production Environments
 
@@ -18,4 +20,22 @@
 - Case Study: The scikit-learn pipeline on Azure DevOps
 - Also, for the DS: continuous, automatic re-training
 
-## Monitoring
+## Maintaining and Monitoring
+
+- The hand-over process
+  - Ideally, as a consultant, stay on for a month after deployment to monitor
+  it. But! Make it easy to change, so the client can afterwards:
+    - Maintain/adapt the model
+    - Watching for **model drift**
+  - That's why you need an initial few days to watch the team, what tools they
+    use, what tech they're familiar with, so you can pass it back to them
+    afterwards.
+  - Document it well!
+- This is an important stage after deployment.
+- TODO maybe it deserves its own chapter. It *is* a worthy own part of the data science lifecycle.
+
+- Who will maintain the model?
+- TODO: google "Smart Alarming"
+- Watch for model shift
+- Watch for distribution shift
+- Also maintaining: https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf

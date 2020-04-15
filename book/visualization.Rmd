@@ -4,3 +4,5 @@
 - You should be able to make a (very simple) web app with a dashboard
 - Use dash, it's good (enough) for prototyping and showing to the stakeholders
   - or Shiny if you work with R
+- be able to clearly relay your findings, with "like I'm 5" attitude, to people who are not comfortable with even basic bar charts or graphs. You should be able to look at a graph at a glance and consume what it is telling you.
+- Be careful of Tableau: There are reports of the only guy who knows Tableau in a company, and he now only does Tableau support all day every day

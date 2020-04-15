@@ -6,6 +6,9 @@
 
 ## APIs
 
+- IBM's "APIs for Dummies" https://www.ibm.com/downloads/cas/GJ5QVQ7X and your notes in Classei
+- https://letterstoanewdeveloper.com/2019/12/12/web-apis-for-new-developers/
+- Fun example with YouTube API: https://www.youtube.com/watch?v=BxV14h0kFs0
 - As soon as somebody else uses your code, you've deliberately or not created an API. (Source:  
   https://de.pycon.org/program/pyconde-qxb8dr-break-your-api-gently-or-not-at-all-tim-hoffmann/)
 - Deploy and consume a model via an API
@@ -16,3 +19,20 @@
   - https://medium.com/applied-data-science/the-full-stack-data-scientist-part-1-productionise-your-models-with-django-apis-7799b893ce7c
 
 ## Pipeline Orchestration with Airflow
+
+## Deployment under heavy constraints
+
+Thanks to Janek for this section
+
+- Sometimes a Microservice (i.e. Docker container + an API) is not possible due to data privacy / *data governance* reasons.
+- e.g. you're not allowed to move the data out of the DB it holds
+- In this case, do *Batch Deployment*, e.g. deploy (the model?) there 1x per hour 
+
+
+- Alternatively, deploy it event-based, e.g. with *Storm*: this is called *Data Streams*
+- This is a very different architecture from a REST API
+
+
+- Deployment on *Embedded Systems*
+- Or, if your ML must happen on a Microcontroller, e.g. a conveyor belt trying to identify broken parts moving past. The images can't go to the cloud to be analyzed, it must happen on the microcontroller. 
+- Another example is autonomous driving.

@@ -2,8 +2,11 @@
 
 ## What is Full Stack Data Science? {-}
 
-- The CRISP-DM process model defines the full stack very well
-- CRISP-DM (cross industry standard for data mining)
+- This one article: https://thefullstackdatascientist.com/blog/what-is-a-full-stack-data-scientist/
+
+- The *Data Science Lifecycle* model defines the full stack very well
+- The old version (like 1990s) of this was the CRISP-DM (cross industry standard for data mining)
+  - see also: https://thefullstackdatascientist.com/blog/what-is-data-science/
   - workflow for solving DS problems
   - it makes sure you don't miss a step or make common errors
   1. business understanding
@@ -58,25 +61,41 @@
 
 ## Why do we need Full Stack Data Scientists? {-}
 
-https://hbr.org/2019/03/why-data-science-teams-need-generalists-not-specialists
+- https://hbr.org/2019/03/why-data-science-teams-need-generalists-not-specialists
+  - TODO
+  - An argument to give data scientists end to end ownership
+    - Otherwise they become dull
+
+- only this one article on that page: https://thefullstackdatascientist.com/blog/welcome/
+- https://letterstoanewdeveloper.com/2018/10/10/deep-vs-wide-experience/
+
+- https://blog.dominodatalab.com/become-full-stack-data-science-company/
+  - For non-full stack data scientists, the workflow happens something like this:
+    - a data scientist builds mathematical models
+    - then hands the models to engineering to productionize
+    - then every time model coefficients need to be updated or a new feature needs to be added, the data scientist has to wait for the engineer (who is part of an organization with different priorities) to implement the changes.
+  - This slower iteration process can be demotivating to the data scientist because something he or she cares about isn’t as important to someone on a different organization (and likewise for the engineer). The full stack model enables faster iteration process and enables our data scientists to become the domain experts of a particular capability and invaluable partners to their counterparts in other parts of the business.
 
 ## Who is this book for? {-}
 
+- https://letterstoanewdeveloper.com/2020/02/10/manage-your-career/
+- https://letterstoanewdeveloper.com/2020/02/13/on-mid-career-challenges/
+- https://letterstoanewdeveloper.com/2018/10/10/deep-vs-wide-experience/
 - Anyone who wants to become a **generalist**. 
     - Often, it's a consultant that needs to adapt to different environments (companies) often
         - Your job often is to build a full data product
         - The tools you'll use in one particular organization is heavily dependent on the skills and tools available in that organization (to make the hand-over as easy as possible)
         - But there's a need for deep specialists too, of course. It's best to work in complementing teams, with one expert each in statistics, engineering, business, etc.
-
+    - "Companies look for specialists but keep generalists longer"
+      - https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/
     - But also the solo startup founder needs the full set of skills^[https://www.datasciencecentral.com/profiles/blogs/full-stack-data-scientist-the-elusive-unicorn-and-data-hacker]
     - Or the only DS in a small company that has no other choice but to do everything
     - Or the guy who wants to become a technical leader or data executive
-
-
 - The beginner can start out by getting an overview about everything this Branche comprises, and then afterwards choose a field to specialize in
+- If you want to *skill stack*, i.e. combine your expertise in one field with one or two other skills, to niche down and become the best person in that particular combination
+  - https://letterstoanewdeveloper.com/2019/11/28/skill-stacking/
 - Or you're already an expert in one field and want to get an understanding of how it fits into the big picture
-- Maybe keep one of the fields as a specialty
-  
+  - Maybe keep one of the fields as a specialty
 - The field will be evolving quickly for the foreseeable future. It's good to have at least basic knowledge of many methods. If you don't know about screwdrivers, you'll use a hammer to drive in a screw.
 - Data Scientists need more software development skills, esp. as more stuff goes
   into the cloud, we need to know how to work in there

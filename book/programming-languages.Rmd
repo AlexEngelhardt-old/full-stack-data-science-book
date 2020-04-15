@@ -5,9 +5,13 @@
 - When you can use it, use Python: It's the *swiss army knife*.
   - *"Python is the second best language for almost anything"*
   - /* Focus the book on Python then */
+  
+https://thefullstackdatascientist.com/blog/the-perfect-programming-language-for-a-full-stack-data-scientist-python/
 
 ## SQL
 
 - It's oldschool, but omnipresent. You'll encounter it often, learn the basics!
+- https://letterstoanewdeveloper.com/2019/11/11/learn-sql/
+  - and if you're completely new to SQL: https://letterstoanewdeveloper.com/2019/12/30/learn-sql-with-sqlite/
 
 ## R
