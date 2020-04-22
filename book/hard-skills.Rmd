@@ -31,6 +31,8 @@ https://en.wikipedia.org/wiki/Mathematical_optimization
 
 ## Probabilistic programming
 
+- But this section already exists in `Programming paradigms`
+
 ## Machine Learning
 
 ### Supervised Learning
@@ -51,10 +53,9 @@ https://en.wikipedia.org/wiki/Mathematical_optimization
 
 - put in or don't?
 - goal, when to use, basic methods
-
-## Interpretable Machine Learning / Explainable AI
-
-- As a consultant, you hand over stuff a lot.
-  - Prefer simpler models that are easily explainable and interpretable
-- Ethical reasons (e.g. Gender Bias)
-- Legal reasons (GDPR e.g.)
+- As with the others, just the birds-eye view basics:
+  - What is it
+  - When is it useful
+  - Example cases
+  
+file:///home/alexx/github/full-stack-data-science-book/book/_output.yml

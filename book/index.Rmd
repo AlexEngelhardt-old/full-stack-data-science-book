@@ -24,13 +24,13 @@ field.
 
 The focus are skills that are not pure machine learning but that you also need to deliver a full data product, for example building the software infrastructure, or making your final model public via an API.
 
-## Goal of this book
+## Goal of this book {-}
 
 This book aims to teach at least awareness of all topics that are not the core ML skills you already learn at university or in a MOOC. Its goal is not to make you an expert in any of them, but to give you a birds-eye view of the whole landscape. Because if you don't know that screwdrivers exist, you'll use your hammer to drive in a screw. And if you know these topics exist, you can choose the appropriate tool for the job (even if you'll first have to learn it).
 
 Also, knowing about adjacent fields like DevOps, even if you won't use it in your job, you will know common pitfalls and problems and will build better products to hand over to the operations team (i.e. your model will be easier for them to put into production).
 
-## Target audience
+## Target audience {-}
 
 This book is aimed at
 
@@ -40,7 +40,7 @@ This book is aimed at
 - The solo entrepreneur or startup founder who has no other choice than to build the entire data product himself
 - The IT executive who oversees the full pipeline from infrastructure to final data products and who needs a broad awareness of all topics across the data value chain to make informed decisions
 
-## Feedback
+## Feedback {-}
 
 I am happy for all kinds of feedback I can get on it. Especially helpful would be feedback on whether I forgot a specific topic, or if something is unnecessary and can be removed, or if the structure/organization of the contents can be improved.
 

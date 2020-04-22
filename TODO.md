@@ -33,10 +33,11 @@
 
 # Sources to still distill
 
+-https://www.linkedin.com/pulse/failure-rates-data-products-michele-dallachiesa-ph-d-
+	- and http://radar.oreilly.com/2012/07/data-jujitsu.html
 - https://towardsdatascience.com/data-science-project-flow-for-startups-282a93d4508d
-- your google doc. the text goes into the intro :)
+- The feedback from your google doc
   - https://docs.google.com/document/d/1eMOY7S3s4S3ongvTRll33hA--kfgT9zKiyaTnNurTzw
-  - Also, incorporate the feedback from there
 - https://21lessons.com/7/
   - you can't know everything. be humble
 - FSDS, Time series methods: https://otexts.com/fpp3/what-can-be-forecast.html

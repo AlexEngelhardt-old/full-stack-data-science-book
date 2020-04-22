@@ -85,7 +85,13 @@ TODO: it feels like the concept of complexity and the advice "document your code
      - One could argue that one does not need virtualenv for a production environment because there is no mixing on a deployed and self contained production (virtual) box. However, it will be useful for having identical environments between development and production, and virtualenv is very useful in a more dynamic development environment.
        https://www.quora.com/What-are-the-advantages-of-using-virtualenv-when-using-Python-for-a-production-website
 
-### Object-oriented Programming
+### Programming paradigms
+
+- Object-oriented Programming
+- Functional programming
+- Probabilistic programming
+- ML as a style of declarative programming
+  - You describe the system and the desired result
 
 ### Debugging
 
@@ -93,6 +99,8 @@ TODO: it feels like the concept of complexity and the advice "document your code
 - https://letterstoanewdeveloper.com/2019/04/08/learn-to-use-a-debugger/
 - https://letterstoanewdeveloper.com/2020/01/20/on-debugging/
 - https://letterstoanewdeveloper.com/2020/02/17/on-debugging-v2/
+
+### Code reviewing
 
 ### Testing
 

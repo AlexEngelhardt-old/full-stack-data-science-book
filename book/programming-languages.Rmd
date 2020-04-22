@@ -15,3 +15,5 @@ https://thefullstackdatascientist.com/blog/the-perfect-programming-language-for-
   - and if you're completely new to SQL: https://letterstoanewdeveloper.com/2019/12/30/learn-sql-with-sqlite/
 
 ## R
+
+## Scala (?)
