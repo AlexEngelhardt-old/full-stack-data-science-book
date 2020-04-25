@@ -25,3 +25,7 @@
 - Ideally, have a dynamically scalable system
 - Case study: During the Corona crisis, everyone suddenly played poker home games online, and a certain home game poker app crashed under the unexpectedly heavy traffic
 - Amazon ECR (or was it ECS?) automatically scales Docker containers and is a good solution for this problem.
+
+## Serverless
+
+Serverless: Ich denke das ist in Cloud Services inkludiert. Aber hier würde ich persönlich mir vor allem einen großen Serverless Part erwarten. Wie man z.B. mit serverless services eine ML App (zum Beispiel) aufzieht. Angefangen von simplen lambda Funktionen zu Services wie sagemaker, dynamo, glue, athena, etc. Vor allem die Verbindung von großen Datenmengen zum einfachen aggregieren bis zum trainieren von Modellen. 

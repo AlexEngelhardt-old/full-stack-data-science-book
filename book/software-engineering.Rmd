@@ -1,5 +1,8 @@
 # Software Engineering
 
+- Good source: https://missing.csail.mit.edu/
+
+
 - Start here, define "engineer":
   - https://en.wikipedia.org/wiki/Software_engineering
   - Also touch upon "systems engineering"
@@ -10,6 +13,7 @@
   - https://letterstoanewdeveloper.com/2018/09/24/learning-to-read-code-is-more-important-than-learning-to-write-it/
   - https://letterstoanewdeveloper.com/2019/04/05/how-to-read-code/
 - Read Clean Code and The Pragmatic Programmer
+  - Maybe a separate section about clean code?
 - Read standard library code to converge to their coding style
   - https://letterstoanewdeveloper.com/2019/03/11/learn-your-standard-library/
   - For Python: https://github.com/python/cpython/tree/3.8/Lib

@@ -20,22 +20,23 @@
 - Case Study: The scikit-learn pipeline on Azure DevOps
 - Also, for the DS: continuous, automatic re-training
 
-## Maintaining and Monitoring
+## Maintaining
 
+- Who will maintain the model?
 - The hand-over process
   - Ideally, as a consultant, stay on for a month after deployment to monitor
   it. But! Make it easy to change, so the client can afterwards:
     - Maintain/adapt the model
-    - Watching for **model drift**
   - That's why you need an initial few days to watch the team, what tools they
     use, what tech they're familiar with, so you can pass it back to them
     afterwards.
   - Document it well!
 - This is an important stage after deployment.
 - TODO maybe it deserves its own chapter. It *is* a worthy own part of the data science lifecycle.
-
-- Who will maintain the model?
-- TODO: google "Smart Alarming"
-- Watch for model shift
-- Watch for distribution shift
 - Also maintaining: https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf
+
+## Monitoring
+
+- https://datascience.stackexchange.com/questions/64764/monitoring-machine-learning-models-in-production
+- TODO: google "Smart Alarming"
+- Watch for model shift / distribution shift / model drift / concept drift (all the same I think)

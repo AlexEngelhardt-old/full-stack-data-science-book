@@ -8,8 +8,14 @@
 ### Collecting your own data
 
 - Sampling design
+  - How to sample the right data
+  - How well does the training data resemble the data in the app later
 - How much data to collect?
 - What features to collect?
+
+### Data labeling
+
+Christoph M built webapps to label his data in his industry projects.
 
 ### Web Scraping
 

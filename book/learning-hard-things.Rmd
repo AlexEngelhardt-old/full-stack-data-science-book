@@ -1,5 +1,7 @@
 # Learning Hard Things
 
+// maybe this is better outside of the "Soft Skills" part. An Appendix chapter? Or between Introduction and Part I?
+
 - Become a self-learner / autodidact
 
 ## Problem Solving

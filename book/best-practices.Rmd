@@ -21,6 +21,6 @@
 
 - Christoph Molnar
 
-## Concept Drift
+## Adversarial Attacks
 
-## Data Labeling
+although not a "best practice". Maybe this chapter should be called "other topics to be aware of"

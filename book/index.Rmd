@@ -40,6 +40,10 @@ This book is aimed at
 - The solo entrepreneur or startup founder who has no other choice than to build the entire data product himself
 - The IT executive who oversees the full pipeline from infrastructure to final data products and who needs a broad awareness of all topics across the data value chain to make informed decisions
 
+## Prior knowledge assumed {-}
+
+This book does not start at zero. It assumes familiarity with some common Machine Learning algorithms, and basic programming skills. For example, you should be able to tune and train a Random Forest on a [credit data set](https://www.openml.org/d/31) to predict whether a loan application belongs to the "good" or "bad" class.
+
 ## Feedback {-}
 
 I am happy for all kinds of feedback I can get on it. Especially helpful would be feedback on whether I forgot a specific topic, or if something is unnecessary and can be removed, or if the structure/organization of the contents can be improved.
@@ -48,6 +52,6 @@ For feedback you can send me an e-mail at alexander.w.engelhardt@gmail.com
 
 ## Acknowledgments {-}
 
-I am very grateful to Christoph Molnar, Heidi Seibold, and Janek Thomas for reviewing early versions of the book's scope and contents.
+I am very grateful to Christoph Molnar, Heidi Seibold, Janek Thomas and Alessandro Volpicella for reviewing early versions of the book's scope and contents.
 
 In the research phase, I used a wide variety of sources, but I want to particularly mention the blog [*Letters to a new Developer*](https://letterstoanewdeveloper.com), because Dan's writing is incredibly valuable to every kind of IT professional.

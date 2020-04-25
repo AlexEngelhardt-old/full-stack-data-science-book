@@ -1,35 +1,17 @@
+# Quickies
+
+- [ ] Rename DevOps part to MLOps
+  - https://en.wikipedia.org/wiki/MLOps
+  - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#devops_versus_mlops
+
+# Finish first version of Table of Contents
+
+- [ ] I think one of your biggest concerns when choosing which topics to include should be “will this be relevant in 5 years? In particular, I think you should not focus too much on specific technologies (e.g. docker, airflow and “best practices”) otherwise as soon as the next hype train arrives everybody will forget about your book. In a similar spirit, focus on the core ideas, trade-offs and alternatives: why/when agile? Why/when containers? Why/when microservices? 
+- [ ] Define a first MVP, then write that. Backlog all other chapters.
 
 # Decisions
 
 - [X] Focus on Python? Or do both? Will be hard for presenting software (e.g. must write about Shiny and Dash)
-
-# Book Abstract
-
-- This book is aimed at 
-  - The data science graduate (university or MOOC) who has some experience in
-    building prediction models and wants to choose the most fitting field to
-    specialize in.
-  - The expert in a particular field who wants to broaden his view and see how
-    his skills fit into the bigger picture
-  - The consultant who needs to become a generalist to quickly adapt to each new
-    client's existing environment
-  - The solo entrepreneur or startup founder who has no other choice than to
-    build the entire data product himself
-  - The IT executive who oversees the full pipeline from infrastructure to final
-    data products and who needs a broad awareness of all topics across the data
-    value chain to make informed decisions
-- It teaches at least awareness of all topics around the classical ML you learn
-  at uni or in a MOOC
-- This book's goal is not to make you an expert in any of them, but to give you
-  a birds-eye view of the whole landscape
-- If you don't know that screwdrivers exist, you'll use your hammer to drive in
-  a screw
-- If you know these topics exist, you can choose the appropriate tool for the
-  job (even if you'll first have to learn it)
-- Also, knowing about e.g. the DevOps part, even if you won't use it in your
-  job, you will know common pitfalls and problems and will build better products
-  to hand over to the operations team (i.e. easier for them to put into
-  production)
 
 # Sources to still distill
 

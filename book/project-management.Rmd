@@ -1,5 +1,14 @@
 # Project Management
 
+Read The Mythical Man-Month for that
+
 - know how to move fast, lean+agile, build MVP, get feedback and iterate
 - Incremental value delivery, close communication with Product Owner
 - know to Pivot when a projects goes crazy
+- Ich finde Zeitschätzungen von Projekten sehr interessant und recht anspruchsvoll. Teilweise schaffst du es im agilen Kontext natürlich eine Zeitschätzung zu umgehen, ich finde aber in einer Freelancing Umgebung aber auch in  einer allgemeinem Projektumgebung erwarten viele Stakeholder immer noch einen groben Zeitplan. Vllt. kannst du da etwas drauf eingehen wie du diesen bisher gestaltet hast
+
+## Goal definition
+
+- One metric rule
+- Define one KPI
+- Define all business constraints under which you have to work
